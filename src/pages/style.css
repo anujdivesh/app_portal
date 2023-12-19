@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   /* background-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    background-image: url("./ocean3.jpg");*/
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 94vh;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+@import "bootstrap";
+/*
+.btn-primary {
+    color: red;
+    text-emphasis-color: red;
+    font-weight: bold;    
+}   
+.button:focus
+{
+    font-size: 13px;
+    color:orange;
+}*/
+
+#portal {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  padding: 10px;
+  color: white;
+  font-size: 4vw;
+  font-weight: bold;
+  z-index: 400;
+  
+}
