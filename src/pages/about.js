@@ -55,7 +55,7 @@ const About = () => {
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title" style={{fontSize: "1.1vw"}}>RMI - Sea Level Rise</h5>
+                <h5 class="card-title" style={{fontSize: "1.1vw"}}>PREP II - Portal</h5>
                 <p class="card-text" style={{fontSize: "0.8vw"}}>
                   This app was built as part of Pacific Resilience Programme II Project.
                 </p>
@@ -93,7 +93,7 @@ const About = () => {
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title" style={{fontSize: "1.1vw"}}>TCAP</h5>
+                <h5 class="card-title" style={{fontSize: "1.1vw"}}>TCAP - Portal</h5>
                 <p class="card-text" style={{fontSize: "0.8vw"}}>
                   App was built as part of Tuvalu Coastal Adaptation Project
                 </p>
@@ -135,7 +135,7 @@ const About = () => {
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title" style={{fontSize: "1.1vw"}}>CIFDP</h5>
+                <h5 class="card-title" style={{fontSize: "1.1vw"}}>CIFDP - Portal</h5>
                 <p class="card-text" style={{fontSize: "0.8vw"}}>
                   A high-resolution wave and inundation forecast for Fiji.
                 </p>
@@ -156,7 +156,7 @@ const About = () => {
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title" style={{fontSize: "1.1vw"}}>ECIKS (Demo)</h5>
+                <h5 class="card-title" style={{fontSize: "1.1vw"}}>ECIKS (Demo) - Portal</h5>
                 <p class="card-text" style={{fontSize: "0.8vw"}}>
                   This app shows inundation risks for Cook Islands.
                 </p>
@@ -166,6 +166,23 @@ const About = () => {
             </div>
             </div>
             <div class="col-md-12 col-lg-2 col-xl-2">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src={require("./pl.jpg")}
+                  class="img-fluid"
+                  alt="loading.."
+                  style={{width:"100%", height:"150px"}}
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style={{fontSize: "1.1vw"}}>MCAP - Portal</h5>
+                <p class="card-text" style={{fontSize: "0.8vw"}}>
+                  This app was developed under the Managing Coastal Acquifers Project.
+                </p>
+                <button type="button" class="btn btn-warning" style={{width:"30%", marginRight:'10%'}} onClick={handleShow}>Info </button>
+                <button type="button" class="btn btn-primary" onClick={()=> window.open("https://opm.gem.spc.int/mcap")} style={{width:"60%"}}>Browse {">"}</button>
+              </div>
+            </div>
             </div>
             <div class="col-md-12 col-lg-2 col-xl-2">
             </div>
