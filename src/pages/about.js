@@ -185,6 +185,23 @@ const About = () => {
             </div>
             </div>
             <div class="col-md-12 col-lg-2 col-xl-2">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src={require("./osm.png")}
+                  class="img-fluid"
+                  alt="loading.."
+                  style={{width:"100%", height:"150px"}}
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style={{fontSize: "1.1vw"}}>Ocean Data - Hub(Dev)</h5>
+                <p class="card-text" style={{fontSize: "0.8vw"}}>
+                  This app is the home of all oceanographic datasets.
+                </p>
+                <button type="button" class="btn btn-warning" style={{width:"30%", marginRight:'10%'}} onClick={handleShow}>Info </button>
+                <button type="button" class="btn btn-primary" onClick={()=> window.open("https://opm.gem.spc.int/oceandata")} style={{width:"60%"}}>Browse {">"}</button>
+              </div>
+            </div>
             </div>
             <div class="col-md-12 col-lg-2 col-xl-2">
             </div>
